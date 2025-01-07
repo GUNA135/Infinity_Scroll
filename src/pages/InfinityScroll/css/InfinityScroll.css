@@ -1,0 +1,70 @@
+.infinity-scroll-parent-container {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 5vh 5vw;
+    background: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infinity-scroll-header-section {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.infinity-scroll-body-parent-container {
+    width: 100%;
+    overflow: auto;
+}
+
+.infinity-scroll-card-parent-container {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.infinity-scroll-card {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2vh 1vw;
+}
+
+.infinity-scroll-card-title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.02vw;
+}
+
+.infinity-scroll-card-body {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.02vw;
+    line-height: 3vh;
+}
+
+.infinity-scroll-loading-text {
+    width: 100%;
+    text-align: center;
+    padding: 5vh 0;
+    letter-spacing: 0.03vw;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.infinity-scroll-body-no-data-found {
+    height: calc(100vh - 25vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02vw;
+}

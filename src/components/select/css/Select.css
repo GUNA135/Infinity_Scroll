@@ -1,0 +1,73 @@
+.select-parent-container {
+    width: 100%;
+    height: 7vh;
+    position: relative;
+}
+
+.select-inner-parent-container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #CCCCCC;
+    border-radius: 1vh;
+    box-sizing: border-box;
+    padding: 0 1vw;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.select-input-field {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+}
+
+.select-option-container {
+    border: 1px solid #CCCCCC;
+    position: absolute;
+    top: 7.5vh;
+    width: 100%;
+    border-radius: 1vh;
+    max-height: 55vh;
+    overflow: auto;
+    background: #FFFFFF;
+    z-index: 9;
+}
+
+.select-no-options-message {
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 0.1vw;
+    text-align: center;
+    padding: 4vh;
+    box-sizing: border-box;
+}
+
+.select-option-text {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    letter-spacing: 0.1vw;
+    padding: 1vh 1vw;
+    margin: 0;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.select-option-text:first-child {
+    border-radius: 1.1vh 1.1vh 0 0;
+}
+
+.select-option-text:last-child {
+    border-radius: 0 0 1.1vh 1.1vh;
+}
+
+.select-option-text:hover {
+    background: #dbdbdb;
+}
