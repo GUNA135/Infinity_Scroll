@@ -85,8 +85,6 @@ const InfinityScroll = () => {
 
   }, [list, filteredPosts]);
 
-  console.log('qqq-1',options)
-
   return (
     <div className='infinity-scroll-parent-container'>
       <section className='infinity-scroll-header-section'>
