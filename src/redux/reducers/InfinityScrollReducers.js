@@ -22,7 +22,7 @@ const InfinityScrollReducers = (state = initialState, action) => {
             return {
                 ...state,
                 users: action?.payload,
-                options: [{ label: 'All', value: 'All' }, ...state?.users?.map((value) => {
+                options: [{ label: 'All', value: 'All' }, ...state?.payload?.map((value) => {
                     return {
                         label: value?.name,
                         value: value?.id
